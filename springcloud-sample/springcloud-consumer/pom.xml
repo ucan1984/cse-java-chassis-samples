@@ -6,7 +6,7 @@
 		<artifactId>springcloud-sample</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>springcloud-consumer</artifactId>
+	<artifactId>consumer</artifactId>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>1.8</java.version>
