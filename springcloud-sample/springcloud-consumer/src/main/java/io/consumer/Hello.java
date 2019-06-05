@@ -27,5 +27,5 @@ import org.springframework.web.bind.annotation.RequestParam;
 public interface Hello {
 
   @RequestMapping(path = "/sayhi", method = RequestMethod.GET)
-  String sayHi(@RequestParam(name = "name") String name);
+  String sayHi(@RequestParam(name = "name") String name, @RequestParam(name = "age") Integer age);
 }
