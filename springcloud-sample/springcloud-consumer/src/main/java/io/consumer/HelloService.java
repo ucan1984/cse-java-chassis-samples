@@ -34,7 +34,7 @@ public class HelloService {
   @RequestMapping(method = RequestMethod.GET)
   public String hello(String name) {
     log.info("Access /hello, and name is " + name);
-    return client.sayHi(name);
+    return client.sayHi(name,18);
   }
 
 }
